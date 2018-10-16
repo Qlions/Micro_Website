@@ -1,0 +1,38 @@
+{
+  "name": "demo",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --host 192.168.18.73 ",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "echarts": "^3.6.2",
+    "jquery": "^3.2.1",
+    "vue": "^2.3.3",
+    "vue-awesome-picker": "^1.1.0",
+    "vue-cookie": "^1.1.4",
+    "vue-cropper": "^0.2.9",
+    "vue-js-toggle-button": "^1.2.2",
+    "vue-resource": "^1.3.3",
+    "vue-router": "^2.5.3",
+    "vue-scroller": "^2.2.1",
+    "vuex": "^2.3.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.5.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
